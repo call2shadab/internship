@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.options import Options
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--window-size=1920x1080")
-driver = '/usr/lib/chromium-browser/chromedriver'
+driver = '/path/to/chrome/webdriver'
 
 def wri(page):
 	with open('res1.html','r+') as f:
